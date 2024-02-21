@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foglio di trucchi istantaneo per logica simbolica</title>
+    <script src="jquery.js" defer></script>
+    <script src="truth.js" defer></script>
+    <link rel="stylesheet" href="truth.css">
+</head>
+
+<body>
+    <div id="guide">
+        <h1>Operatori Riconosciuti</h1>
+        <p>In ordine di precedenza decrescente.</p>
+        <ul>
+            <li>
+                <strong>&amp;</strong>
+                e
+            </li>
+            <li>
+                <strong>|</strong>
+                o
+            </li>
+            <li>
+                <strong>^</strong>
+                xor
+            </li>
+            <li>
+                <strong>¬</strong>
+                non
+            </li>
+            <li>
+                <strong>!</strong>
+                non
+            </li>
+        </ul>
+    </div>
+    <div id="controls">
+        <h1>Inserisci un'espressione logica</h1>
+        <form id="theform">
+            <input type="text" id="expr" placeholder="Inserisci l'espressione qui">
+            <input type="submit" value="Applica">
+        </form>
+
+        <h1>Tabella di Verità</h1>
+        <div id="output">
+            <div id="nothing">Niente ancora.</div>
+            <div id="combo"></div>
+            <div id="ast"></div>
+            <div id="sym"></div>
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+            truth.main();
+        };
+    </script>
+</body>
+</html>

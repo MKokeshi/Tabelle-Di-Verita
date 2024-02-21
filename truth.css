@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Utilizzo di un font più moderno */
+    background: linear-gradient(135deg, #00c6ff, #0072ff); /* Effetto gradient per uno sfondo più dinamico */
+    max-width: 60em;
+    margin: 0 auto; /* Centratura del contenuto */
+    padding: 2em; /* Spaziatura interna per una maggiore leggibilità */
+    color: #fff; /* Colore del testo bianco per maggiore contrasto */
+}
+
+#guide {
+    float: right;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Bordo trasparente con effetto di sfumatura */
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.1); /* Sfondo trasparente con effetto di sfumatura */
+    border-radius: 0.5em; /* Bordi arrotondati per uno stile più moderno */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); /* Ombra per un effetto di profondità */
+}
+
+#guide h1 {
+    font-size: 1.5em; /* Dimensione del titolo aumentata per maggiore enfasi */
+    color: #ff7a00; /* Colore del titolo arancione per un tocco futuristico */
+    text-transform: uppercase; /* Trasformazione del testo in maiuscolo per una maggiore rilevanza */
+    letter-spacing: 2px; /* Spaziatura tra le lettere per un aspetto più moderno */
+    margin-bottom: 0.5em; /* Spazio inferiore ridotto per un layout più compatto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombra del testo per effetto tridimensionale */
+}
